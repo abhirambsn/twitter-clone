@@ -14,10 +14,10 @@ export default function Home({trendingTweets, followTweets, providers, sessionDa
   return (
     <div>
       <Head>
-        <title>Twitter</title>
+        <title>Twitter Clone</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-black min-h-screen flex max-w-screen mx-auto'>
+      <main className='flex min-h-screen mx-auto bg-black max-w-screen'>
         <Sidebar />
         <Feed />
         <Widgets trendingTweets={trendingTweets} followTweets={followTweets} />
